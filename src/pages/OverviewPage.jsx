@@ -5,7 +5,7 @@ import Header from "../_components/common/Header";
 import StatCard from "../_components/common/StatCard";
 import SalesOverviewChart from "../_components/overview/SalesOverviewChart";
 import CategoryDistributionChart from "../_components/overview/CategoryDistributionChart";
-import SalesChannelChart from "./SalesChannelChart";
+import SalesChannelChart from "../_components/overview/SalesChannelChart";
 
 const OverviewPage = () => {
   return (

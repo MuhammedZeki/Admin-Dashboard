@@ -1,4 +1,3 @@
-import React from "react";
 import { AlertTriangle, DollarSign, Package, TrendingUp } from "lucide-react";
 import { motion } from "framer-motion";
 

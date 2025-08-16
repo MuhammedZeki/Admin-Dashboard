@@ -1,6 +1,7 @@
 import { CreditCard, DollarSign, ShoppingCart, TrendingUp } from "lucide-react";
 
 import { motion } from "framer-motion";
+
 import Header from "../_components/common/Header";
 import StatCard from "../_components/common/StatCard";
 import SalesOverviewChart from "../_components/sales/SalesOverviewChart";

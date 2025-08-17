@@ -7,6 +7,7 @@ import SidebarPage from "./_components/SideBar";
 import UsersPage from "./pages/UsersPage";
 import SalesPage from "./pages/SalesPage";
 import OrdersPage from "./pages/OrdersPage";
+import AnalyticsPage from "./pages/AnalyticsPage";
 function App() {
   return (
     <div className="h-screen bg-gray-900 text-gray-100 overflow-hidden flex">
@@ -23,6 +24,7 @@ function App() {
         <Route path="/users" element={<UsersPage />} />
         <Route path="/sales" element={<SalesPage />} />
         <Route path="/orders" element={<OrdersPage />} />
+        <Route path="/analytics" element={<AnalyticsPage />} />
       </Routes>
     </div>
   );

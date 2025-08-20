@@ -2,6 +2,9 @@ import React from "react";
 import Header from "../_components/common/Header";
 import Profile from "../_components/settings/Profile";
 import Notifications from "../_components/settings/Notifications";
+import Security from "../_components/settings/Security";
+import ConnectedAccounts from "../_components/settings/ConnectedAccounts";
+import DangerZone from "../_components/settings/DangerZone";
 
 const SettingsPage = () => {
   return (
@@ -11,6 +14,9 @@ const SettingsPage = () => {
       <main className="max-w-4xl mx-auto py-6 px-4 lg:px-8">
         <Profile />
         <Notifications />
+        <Security />
+        <ConnectedAccounts />
+        <DangerZone />
       </main>
     </div>
   );
